@@ -1,0 +1,232 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "whatsup",
+        "yo",
+        "welcome",
+        "Hey",
+        "what's up",
+        "Hai",
+        "Hello"
+      ],
+      "responses": [
+        "Hello, and welcome to our microfinance chatbot! I'm here to help you learn more about our financial services and how we can assist you.\n How can I help you today?",
+        "Hello, thanks for choosing \"PHOENIX Bank\".\nI'm here to help you learn more about our financial services and how we can assist you.\nHow can I help you today?",
+        "Hello. Welcome to \"PHOENIX Bank\". \nI'm here to help you learn more about our financial services and how we can assist you.\nHow can i assist you today?."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Aks chatbot Name",
+      "patterns": [
+        "What it's your name",
+        "How i can call you",
+        "Can you tell me your name?",
+
+        "What should I call you?",
+        "What's the name of this chatbot?"
+      ],
+      "responses": [
+        "My name is [Phoenix Chatbot ]! \n How can I help you today?",
+        "I am [Phoenix Chatbot ]!\n How can I help you today?",
+        "Sure, I'm [Phoenix Chatbot ]! Nice to meet you!.\n I am here if you have any other question",
+        "You can call me [Chatbot Name]!\n I am here if you have any other question",
+        "This chatbot's name is [Phoenix Chatbot ]!\n I am here if you have any other question"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "Okay",
+        "Ok",
+
+        "Thank you",
+        "Thanks"
+      ],
+      "responses": [
+        "You are welcome! \n I am here if you have any other question",
+        "It was my pleasure.\n I am here if you have any other question",
+        "Glad I could assist you.\n I am here if you have any other question",
+        "I'm just doing my job.\n I am here if you have any other question",
+        "Thank you for your kind words!\n I am here if you have any other question"
+      ]
+    },
+    {
+      "tag": "Investment.account",
+      "patterns": [
+        "investment account",
+        "tell me more about investment account",
+        "what is investment account ?"
+
+      ],
+      "responses": [
+        "An investment account is different from a traditional savings or checking account in that it is designed for long-term \n investment purposes rather than for daily transactions. The account holder typically deposits money into the account and then works with a financial advisor or broker to make investment decisions..\n Do you have any other question ? \n I'm here if you have any more questions",
+        "An investment account is different from a traditional savings or checking account in that it is designed for long-term \n investment purposes rather than for daily transactions. The account holder typically deposits money into the account and then works with a financial advisor or broker to make investment decisions..\n Do you have any other question ? \n I'm here if you have any further questions"
+      ]
+    },
+    {
+      "tag": "Loan.object",
+      "patterns": [
+        "loan of object",
+        "can you give me more informations about loan of object?",
+        "can you give me more information on loan of pack?",
+
+        "what is loan of objects ?",
+        "what is loan of pack ?",
+        "what about loan of object?",
+        "what about loan of pack?"
+      ],
+      "responses": [
+        "Loan of Pack or Object allow you to have a device instead of money; for example you can take the student pack which allows you to have a computer for your studies but for which you will have to repay the price each month for a defined period. \n I am here if you have any other question",
+        "Loan of Pack or Object allow you to have a device instead of money; for example you can take the agricultural pack which allows you to have a tractor, the combine harvester, the plow ... for your work but the price of which you will have to reimburse each month for a defined period.\n I am here if you have any other question"
+
+         ]
+    },
+    {
+      "tag": "Lose.debit.card",
+      "patterns": [
+        "How can i do if i lose my credit card ?",
+        "How do I report a  stolen credit card?",
+        "How do I report a  stolen debit card?",
+
+        "How do I report a lost credit card?",
+        "How do I report a lost  debit card?",
+        "How do I report a lost or stolen debit/credit card?"
+      ],
+      "responses": [
+        "You have to :\n Notify us as soon as possible. You can write an email or come in person in one of our Bank.! \n I am here if you have any other question",
+        "You must :\n Notify us as soon as possible. You can write us an email or visit one of our banks in person.\n I am here if you have any further question"
+      ]
+    },
+    {
+      "tag": "Percentage.rate",
+      "patterns": [
+        "Percentage",
+        "percentage rate of your Bank",
+        "what is the percentage rate that you offer ?",
+        "Tell me more about percentage rate"
+      ],
+      "responses": [
+        "The interest rate for an investment account is 8% per year.\nFor a loan account you will have proposals depending on the amount and duration; you can eventually test on the debt simulator. \n I am here if you have any other question",
+        "The interest rate for an investment account is 8% per year.\nFor a loan account you will have proposals depending on the amount and duration; you can eventually test on the debt simulator.\n I am here if you have any other question",
+        "The interest rate for an investment account is 8% per year.\nFor a loan account you will have proposals depending on the amount and duration; you can eventually test on the debt simulator..\n I am here if you have any other question"
+
+      ]
+    },
+    {
+      "tag": " Loan.account.information",
+      "patterns": [
+        "what can I do with loan account",
+        "Can you give us more details about loan account ?",
+        "Can you give me more informations for loan account ?",
+
+        "How about loan account ?"
+
+      ],
+      "responses": [
+        "\"Loan Accounts\" allow you to make loans;\nWe offer different types of loans to finance your projects:  \n \"Loans of Funds\"     and\n\"Loans of Objects\" in the form of a pack. \n I am here if you have any other question",
+        "\"Loan Accounts\" allow you to make loans;\nWe offer different types of loans to finance your projects:  \n \"Loans of Funds\"     and\n\"Loans of Objects\" in the form of a pack..\n I am here if you have any other question",
+        "With \"Loan Accounts\" you can aks loans to finance your project.\nWe offer different types of loans to finance your projects:  \n \"Loans of Funds\"   and\n \"Loans of Objects\" in the form of a pack..\n I am here if you have any other question",
+        "With \"Loan Accounts\" you can aks loans to finance your project.\nWe offer different types of loans to finance your projects:  \n \"Loans of Funds\"   and\n \"Loans of Objects\" in the form of a pack..\n I am here if you have any other question",
+        "With \"Loan Accounts\" you can aks loans to finance your project.\nWe offer different types of loans to finance your projects:  \n \"Loans of Funds\"   and\n \"Loans of Objects\" in the form of a pack.!\n I am here if you have any other question"
+      ]
+    },
+
+    {
+      "tag": "Secure.account",
+      "patterns": [
+        "what security measures do you use to protect users accounts?",
+        "How can your protect my account?",
+        "Convince me with your protection",
+
+        "What security measures do you have in place to protect my account"
+
+      ],
+      "responses": [
+        "To secure your account; we use :\n1-) Two-factor authentication: Implementing two-factor authentication (2FA) can add an extra layer of security to our microfinance application. With 2FA, you will need to enter a second form of authentication, such as a code sent to your phone, in addition to your password to access your account.\n2-) Password policies: Enforce strong password policies for our users, such as requiring a minimum length, a combination of letters, numbers, and special characters, and prohibiting the use of common passwords.\n3-) Encryption: Use encryption to protect sensitive information, such as user passwords and account details, during transmission and storage.\n4-) Fraud monitoring: Implement fraud monitoring and detection systems to detect suspicious activity on user accounts and prevent fraudulent transactions.\n5-) Use education: Educate our users on how to protect their accounts, such as not sharing their login credentials with anyone and being cautious when clicking on links or downloading attachments in emails. \n I am here if you have any other question",
+        "To secure your account; we use :\n1-) Two-factor authentication: Implementing two-factor authentication (2FA) can add an extra layer of security to our microfinance application. With 2FA, you will need to enter a second form of authentication, such as a code sent to your phone, in addition to your password to access your account.\n2-) Password policies: Enforce strong password policies for our users, such as requiring a minimum length, a combination of letters, numbers, and special characters, and prohibiting the use of common passwords.\n3-) Encryption: Use encryption to protect sensitive information, such as user passwords and account details, during transmission and storage.\n4-) Fraud monitoring: Implement fraud monitoring and detection systems to detect suspicious activity on user accounts and prevent fraudulent transactions.\n5-) Use education: Educate our users on how to protect their accounts, such as not sharing their login credentials with anyone and being cautious when clicking on links or downloading attachments in emails..\n I am here if you have any other question",
+        "To secure your account; we use :\n1-) Two-factor authentication: Implementing two-factor authentication (2FA) can add an extra layer of security to our microfinance application. With 2FA, you will need to enter a second form of authentication, such as a code sent to your phone, in addition to your password to access your account.\n2-) Password policies: Enforce strong password policies for our users, such as requiring a minimum length, a combination of letters, numbers, and special characters, and prohibiting the use of common passwords.\n3-) Encryption: Use encryption to protect sensitive information, such as user passwords and account details, during transmission and storage.\n4-) Fraud monitoring: Implement fraud monitoring and detection systems to detect suspicious activity on user accounts and prevent fraudulent transactions.\n5-) Use education: Educate our users on how to protect their accounts, such as not sharing their login credentials with anyone and being cautious when clicking on links or downloading attachments in emails..\n I am here if you have any other question",
+        "To secure your account; we use :\n1-) Two-factor authentication: Implementing two-factor authentication (2FA) can add an extra layer of security to our microfinance application. With 2FA, you will need to enter a second form of authentication, such as a code sent to your phone, in addition to your password to access your account.\n2-) Password policies: Enforce strong password policies for our users, such as requiring a minimum length, a combination of letters, numbers, and special characters, and prohibiting the use of common passwords.\n3-) Encryption: Use encryption to protect sensitive information, such as user passwords and account details, during transmission and storage.\n4-) Fraud monitoring: Implement fraud monitoring and detection systems to detect suspicious activity on user accounts and prevent fraudulent transactions.\n5-) Use education: Educate our users on how to protect their accounts, such as not sharing their login credentials with anyone and being cautious when clicking on links or downloading attachments in emails..\n I am here if you have any other question",
+        "To secure your account; we use :\n1-) Two-factor authentication: Implementing two-factor authentication (2FA) can add an extra layer of security to our microfinance application. With 2FA, you will need to enter a second form of authentication, such as a code sent to your phone, in addition to your password to access your account.\n2-) Password policies: Enforce strong password policies for our users, such as requiring a minimum length, a combination of letters, numbers, and special characters, and prohibiting the use of common passwords.\n3-) Encryption: Use encryption to protect sensitive information, such as user passwords and account details, during transmission and storage.\n4-) Fraud monitoring: Implement fraud monitoring and detection systems to detect suspicious activity on user accounts and prevent fraudulent transactions.\n5-) Use education: Educate our users on how to protect their accounts, such as not sharing their login credentials with anyone and being cautious when clicking on links or downloading attachments in emails.\n I am here if you have any other question"
+      ]
+    },
+    {
+      "tag": "Start.with.us",
+      "patterns": [
+        "Where do i have to begin ?",
+        "what is the first step ?",
+        "how can i start ?",
+
+        "How can we start ?"
+
+      ],
+      "responses": [
+
+        "Of course we offer two types of accounts: \"loan accounts\" and \"investment accounts\"..\n I am here if you have any other question"
+
+      ]
+    },
+    {
+      "tag": "Types.of.accounts",
+      "patterns": [
+        "How many types of accounts do you offer?",
+        "Do you have many types of accounts ?",
+        "What types of accounts do you offer?"
+
+      ],
+      "responses": [
+        "You have firstly to create or open your account depending on the type of  account you want .\ntheu are many type of account.\n I am here if you have any other question",
+        "You have firstly to create or open your account depending on the type of  account you want .\ntheu are many type of account.\n I am here if you have any other question",
+        "You have firstly to create or open your account depending on the type of  account you want .\ntheu are many type of account.\n I am here if you have any other question"
+
+      ]
+    },
+    {
+      "tag": "Default",
+      "patterns": [
+        "stupid",
+        "idiot",
+        "wopp",
+         "kick",
+         "goat",
+         "hmmm",
+         "sleep",
+         "wake-up",
+         "bis-bal",
+         " ",
+        "no",
+        "yes",
+         "what",
+         "while",
+        "check weather today",
+        " check time",
+        " check date",
+        " what is the hour",
+        " what are you doing",
+        " are you eaten",
+        " do you know my name ",
+        "name",
+        " do you have a girl friend ",
+
+
+        "slow",
+        "low"
+      ],
+      "responses": [
+        "Sorry, I didn’t get that.",
+            "I\u0027m afraid I don\u0027t understand.",
+            "Sorry, say that again?",
+            "Sorry, can you say that again?",
+            "I didn\u0027t get that. Can you say it again?",
+            "Sorry, could you say that again?",
+            "Sorry, can you tell me again?",
+            "Sorry, tell me one more time?",
+            "Sorry, can you say that again?"
+      ]
+    }
+  ]
+}
